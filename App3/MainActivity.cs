@@ -20,7 +20,7 @@ namespace App3
         private Button btn;
         private TextView text;
 
-        public const string key = "3fa1f65516424aefa6af2a2abaf63308";
+        public const string key = "<key>";
         public readonly HttpClient client = new HttpClient
         {
             DefaultRequestHeaders = { { "Ocp-Apim-Subscription-Key", key } }
